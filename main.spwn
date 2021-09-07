@@ -1,0 +1,35 @@
+alphaa = 1g
+alphaa.alpha(0)
+
+color2 = 2c
+color3 = 3c
+color4 = 4c
+color5 = 5c
+color6 = 6c
+
+
+BG.set(0, 0, 0, 0)
+color2.set(0, 0, 0, 0)
+color3.set(0, 0, 0, 0)
+color4.set(0, 0, 0, 0)
+color5.set(0, 0, 0, 0)
+color6.set(0, 0, 0, 0)
+
+
+for_loop(0..224, (i)
+{
+    color2.set(0, 255, 0, 0)
+    color2.set(0, 0, 0, 0.08)
+
+    color4.set(255, 0, 0, 0)
+    color4.set(0, 0, 0, 0.08)
+
+    color6.set(0, 255, 0, 0)
+    color6.set(0, 0, 0, 0.08)
+
+    color3.set(0, 255, 0, 0.08)
+    color3.set(0, 0, 0, 0.08)
+
+    color5.set(255, 0, 0, 0.08)
+    color5.set(0, 0, 0, 0.08)
+})
